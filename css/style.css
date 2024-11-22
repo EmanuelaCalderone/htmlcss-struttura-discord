@@ -4,12 +4,44 @@
     box-sizing:border-box;
 }
 
-header{
-    background-color:#7fffd4;
-    width:100%;
+header {
+    background-color:aquamarine;
+    height:50px;
 }
 
-.nav-header {
+.main-nav {
+    display:flex;
     background-color:orange;
-    width:50px;
+    height:20px;
+    
 }
+
+.main-nav ul {
+   display:flex;
+   flex-direction:row;
+   list-style:none;
+}
+
+.main-nav li {
+    flex-direction:row;
+}
+
+.main-nav ul li a {
+    text-decoration:none;
+}
+
+.jumbotron {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:blue;
+    height:300px;
+}
+
+.jumbotron-content{
+    background-color:pink;
+    height:250px;
+    width: 600px;
+    border: dashed;
+}
+
