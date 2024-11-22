@@ -1,0 +1,15 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+header{
+    background-color:#7fffd4;
+    width:100%;
+}
+
+.nav-header {
+    background-color:orange;
+    width:50px;
+}
