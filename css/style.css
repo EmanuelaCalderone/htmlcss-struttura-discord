@@ -111,3 +111,19 @@ header {
     border: dashed;
 }
 
+footer{
+    display:flex;
+    flex-direction:column;
+    height:400px;
+}
+
+.darkgrey-big {
+    background-color:rgb(37, 35, 35);
+    height:300px;
+    border-bottom: 2px solid white;
+}
+
+.darkgrey-small {
+    background-color:rgb(37, 35, 35);
+    height:100px;
+}
