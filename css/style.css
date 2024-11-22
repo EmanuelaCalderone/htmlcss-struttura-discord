@@ -96,3 +96,18 @@ header {
     height:300px;
 }
 
+.content-lightgrey {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:lightgrey;
+    height:600px;
+}
+
+.green{
+    background-color:green;
+    width: 800px;
+    height:450px;
+    border: dashed;
+}
+
