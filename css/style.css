@@ -5,19 +5,27 @@
 }
 
 header {
+    display:flex;
+    justify-content:center;
+    align-items:center;
     background-color:aquamarine;
     height:50px;
+    width:auto;
 }
 
 .main-nav {
     display:flex;
+    justify-content:space-around;
     background-color:orange;
     height:20px;
+    width:200px;
+    border:dashed;
     
 }
 
 .main-nav ul {
    display:flex;
+   
    flex-direction:row;
    list-style:none;
 }
@@ -45,3 +53,7 @@ header {
     border: dashed;
 }
 
+.link{
+    border-left:dashed;
+    border-right:dashed;
+}
