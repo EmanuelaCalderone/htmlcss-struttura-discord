@@ -16,6 +16,9 @@ header {
     background-color:rgb(177, 225, 209);
     height:8vh;
 }
+.dashed {
+    border:dashed;
+}
 
 .main-nav {
     display:flex;
@@ -25,8 +28,7 @@ header {
     width:80%;
     max-width:600px;
     height:5vh;
-    max-height:40px;
-    border:dashed;   
+    max-height:40px; 
 }
 
 .main-nav ul {
@@ -59,7 +61,7 @@ header {
     margin-right:10px;
 }
 
-.container {
+.footer, .container {
     display:flex;
     flex-direction:column;
 }
@@ -78,50 +80,44 @@ header {
     max-width: 450px;
     height: 25vh; 
     max-height: 200px; 
-    border: dashed;
+}
+
+.white-section, .grey-section, .lightgrey-section {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:40vh;
 }
 
 .white-section {
-    display:flex;
     flex-direction:row;
-    justify-content:center;
-    align-items:center;
     background-color:white;
-    height:40vh;
+}
+
+.grey-section {
+    flex-direction:row-reverse;
+    background-color:grey;
+}
+
+.lightgrey-section {
+    background-color:lightgrey;
+    height:70vh;
+}
+
+.blue-box, .pink-box {
+    height:80%;
 }
 
 .blue-box {
     background-color:blue;
     width:40%;
     max-width:350px;
-    height:80%;
-    border:dashed;
 }
 
 .pink-box {
     background-color:pink;
     width:30%;
     max-width:250px;
-    height:80%;
-    border:dashed;
-}
-
-
-.grey-section {
-    display:flex;
-    flex-direction:row-reverse;
-    justify-content:center;
-    align-items:center;
-    background-color:grey;
-    height:40vh;
-}
-
-.lightgrey-section {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    background-color:lightgrey;
-    height:70vh;
 }
 
 .green-box{
@@ -129,49 +125,41 @@ header {
     width: 70%;
     max-width:600px;
     height: 90%;
-    border: dashed;
 }
 
-footer{
+.footer-1, .footer-2{
     display:flex;
-    flex-direction:column;
-    flex:1;
+    justify-content: center; 
+    align-items:center;
 }
 
 .footer-1 {
-    display:flex;
     flex-direction:row;
-    justify-content:center;
-    align-items:center;
     background-color:rgb(37, 35, 35);
     height:40vh;
     border-bottom: 1px solid white;
+}
+
+.coral-box, .turquoise-box {
+    height:90%;
+    margin-top:2px;
+    margin-bottom:10px;
 }
 
 .coral-box{
     background-color:rgb(223, 96, 96);
     width: 30%;
     max-width:200px;
-    height:90%;
-    border:dashed black; 
-    margin-top:2px;
-    margin-bottom:10px;
 }
 
 .turquoise-box{
     background-color:rgb(28, 176, 176);
     width: 10%;
     max-width:100px;
-    height:90%;
-    border:dashed white; 
-    margin-top:2px;
-    margin-bottom:10px;
+    border:dashed white;
 }
 
 .footer-2 {
-    display:flex;
-    justify-content: center; 
-    align-items:center;
     background-color:rgb(37, 35, 35);
     height:10vh;
     border-bottom: 1px solid white;
@@ -186,7 +174,6 @@ footer{
     height:8vh;
     width: 70%;
     max-width:600px;
-    
 }
 
 .logo-footer, .button {
@@ -197,6 +184,5 @@ footer{
     flex-basis: 10%;
     max-width:60%;
     max-height:80%;
-    border:dashed; 
 }
 
