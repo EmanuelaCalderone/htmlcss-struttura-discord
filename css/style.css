@@ -13,9 +13,12 @@ header {
     display:flex;
     justify-content:center;
     align-items:center;
+    height:60px;
+    /*debug*/
     background-color:rgb(177, 225, 209);
-    height:8vh;
 }
+
+/*debug*/
 .dashed {
     border:dashed;
 }
@@ -23,15 +26,16 @@ header {
 .main-nav {
     display:flex;
     justify-content:space-between;
-    align-items:center;
-    background-color:orange;
+    align-items:center; 
     width:80%;
     max-width:600px;
-    height:5vh;
-    max-height:40px; 
+    /*debug*/
+    background-color:orange;
+    height:50%;
+    max-height:40px;
 }
 
-.main-nav ul {
+.main-nav div {
    display:flex;
    flex-direction:row;
    list-style:none;
@@ -42,7 +46,7 @@ header {
     margin-left:10px;
 }
 
-.main-nav ul li a {
+.main-nav div a {
     text-decoration:none;   
 }
 
@@ -72,61 +76,78 @@ header {
     display:flex;
     justify-content:center;
     align-items:center;
+    /*debug*/
     background-color:blue;
-    height:30vh;
+    height:300px;
 }
 
 .jumbotron-content{
+    width: 60%;
+    max-width:500px;
+    /*debug*/
     background-color:#EF82ED;
-    width: 70%; 
-    max-width: 450px;
-    height: 25vh; 
-    max-height: 200px; 
+    height:90%;
 }
+
 
 .white-section, .grey-section, .lightgrey-section {
     display:flex;
     justify-content:center;
     align-items:center;
-    height:40vh;
+    width: 100%;
+    /*debug*/
+    height:400px;
 }
 
 .white-section {
     flex-direction:row;
+    /*debug*/
     background-color:white;
 }
 
 .grey-section {
     flex-direction:row-reverse;
+    /*debug*/
     background-color:grey;
 }
 
 .lightgrey-section {
+    width: 100%;
+    /*debug*/
     background-color:lightgrey;
-    height:70vh;
+    height:500px;
 }
 
 .blue-box, .pink-box {
+    /*debug*/
     height:80%;
 }
 
 .blue-box {
-    background-color:blue;
     width:40%;
     max-width:350px;
+    /*debug*/
+    background-color:blue;
 }
 
 .pink-box {
-    background-color:pink;
     width:30%;
     max-width:250px;
+    /*debug*/
+    background-color:pink;
 }
 
 .green-box{
-    background-color:green;
     width: 70%;
     max-width:600px;
+    /*debug*/
+    background-color:green;
     height: 90%;
+}
+
+footer {
+    width:100%;
+    height:400px;
 }
 
 .footer-1, .footer-2{
@@ -137,33 +158,38 @@ header {
 
 .footer-1 {
     flex-direction:row;
+    height:400px;
+    /*debug*/
     background-color:rgb(37, 35, 35);
-    height:40vh;
     border-bottom: 1px solid white;
 }
 
 .coral-box, .turquoise-box {
-    height:90%;
     margin-top:2px;
     margin-bottom:10px;
+    /*debug*/
+    height:90%;
 }
 
 .coral-box{
-    background-color:rgb(223, 96, 96);
     width: 30%;
     max-width:200px;
+    /*debug*/
+    background-color:rgb(223, 96, 96);
 }
 
 .turquoise-box{
-    background-color:rgb(28, 176, 176);
     width: 10%;
     max-width:100px;
+    /*debug*/
+    background-color:rgb(28, 176, 176);
     border:dashed white;
 }
 
 .footer-2 {
+    /*debug*/
     background-color:rgb(37, 35, 35);
-    height:10vh;
+    height:15%;
     border-bottom: 1px solid white;
 }
 
@@ -172,19 +198,21 @@ header {
     justify-content:space-between;
     align-items:center;
     align-self:flex-end;
-    background-color:aquamarine;
-    height:8vh;
     width: 70%;
     max-width:600px;
+    /*debug*/
+    background-color:aquamarine;
+    height:50%;
 }
 
 .logo-footer, .button {
     display:flex;
     justify-content:center;
     align-items:center;
-    background-color:rgb(248, 170, 169);
     flex-basis: 10%;
     max-width:60%;
     max-height:80%;
+    /*debug*/
+    background-color:rgb(248, 170, 169);
 }
 
