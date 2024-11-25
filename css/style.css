@@ -48,8 +48,13 @@ header {
     margin-left:10px;
 }
 
-.main-nav div a {
-    text-decoration:none;   
+ul {
+    display:flex;
+    flex-direction:row;
+}
+
+.main-nav div li {
+    list-style-type:none;   
 }
 
 /*sezione logo navbar*/
